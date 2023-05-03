@@ -1,0 +1,85 @@
+name: practice_simple_travel_app
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  json_annotation: ^4.7.0
+  equatable: ^2.0.5
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.1
+
+  cupertino_icons: ^1.0.2
+  dio: ^5.1.1
+  http: ^0.13.5
+  date_picker_timeline: ^1.2.3
+  table_calendar: ^3.0.8
+  intl: ^0.17.0
+  flutter_slidable: ^3.0.0
+  font_awesome_flutter: ^10.4.0
+  # calendar_strip: ^1.0.7
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.3
+  json_serializable: ^6.6.1
+
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: BeVietnamPro
+      fonts:
+        - asset: assets/fonts/BeVietnamPro-Bold.ttf
+        - asset: assets/fonts/BeVietnamPro-Regular.ttf
+        - asset: assets/fonts/BeVietnamPro-SemiBold.ttf
+    - family: CabinetGrotesk
+      fonts:
+        - asset: assets/fonts/CabinetGrotesk-Black.ttf
+        - asset: assets/fonts/CabinetGrotesk-Bold.ttf
+        - asset: assets/fonts/CabinetGrotesk-Extrabold.ttf
+        - asset: assets/fonts/CabinetGrotesk-Extralight.ttf
+        - asset: assets/fonts/CabinetGrotesk-Light.ttf
+        - asset: assets/fonts/CabinetGrotesk-Medium.ttf
+        - asset: assets/fonts/CabinetGrotesk-Variable.ttf
+        - asset: assets/fonts/CabinetGrotesk-Regular.ttf
+
+      
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
