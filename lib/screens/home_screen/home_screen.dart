@@ -15,7 +15,7 @@ import 'widgets/best_deals_card.dart';
 import 'widgets/categories.dart';
 
 import 'widgets/categories_tab.dart';
-import 'widgets/headlines_button.dart';
+import 'widgets/heading_textbutton.dart';
 import 'widgets/searchbar.dart';
 import 'widgets/tabview.dart';
 import 'widgets/trending_card.dart';
