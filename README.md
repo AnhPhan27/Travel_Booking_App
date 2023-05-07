@@ -1,16 +1,19 @@
-# practice_simple_travel_app
+# Flutter_Travel_Booking_App
 
-A new Flutter project.
+Beautiful UI Travel Booking App to recommend and book tours, discovery activities with Cubit State Management.
 
-## Getting Started
+## Technology used in the app:
+* Flutter framework.
+* Dart programming language.
+* RESTful API with Dio packages
+* Cubit state management.
 
-This project is a starting point for a Flutter application.
+## Main function
+* Login and register an account with auto validate.
+* Recommend tours.
+* Booking tours.
 
-A few resources to get you started if this is your first Flutter project:
+## ScreenShots
+![screenshot1](https://user-images.githubusercontent.com/113830198/236654800-4342b2fe-fece-4250-bf0c-03a5c00737d9.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot2-1](https://user-images.githubusercontent.com/113830198/236654801-9a983b4b-3f28-4188-9c95-a585f0e07ee7.png)
