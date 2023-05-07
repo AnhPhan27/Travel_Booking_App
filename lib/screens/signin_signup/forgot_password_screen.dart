@@ -7,7 +7,6 @@ import 'package:practice_simple_travel_app/screens/signin_signup/widgets/default
 
 import '../../cons/size_config.dart';
 import '../../widgets/appText.dart';
-import '../../widgets/validator.dart';
 
 class ForgotPasswordScreen extends StatelessWidget {
   ForgotPasswordScreen({super.key});

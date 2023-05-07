@@ -4,10 +4,7 @@ import 'package:practice_simple_travel_app/cons/colors.dart';
 import 'package:practice_simple_travel_app/cons/size_config.dart';
 import 'package:practice_simple_travel_app/cubit/cubit.dart';
 import 'package:practice_simple_travel_app/screens/home_screen/widgets/default_text_button.dart';
-
 import 'package:practice_simple_travel_app/widgets/appText.dart';
-
-import '../../widgets/validator.dart';
 import 'widgets/default_button.dart';
 import 'widgets/default_textfield.dart';
 

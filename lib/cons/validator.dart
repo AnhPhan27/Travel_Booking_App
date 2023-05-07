@@ -42,8 +42,8 @@ final _pattern = <SpeciesType, List<dynamic>>{
   ],
   SpeciesType.PASSWORD_5: [r'^[0-9]{2,6}$', "Chỉ chứa kí tự số"],
   SpeciesType.USERNAME: [
-    r'^([a-zA-Z0-9\.\-\@]{8,50})$',
-    "Name can only use letters,numbers, minimum length is 8 characters"
+    r'^([a-zA-Z0-9\.\-\@]{3,50})$',
+    "Name can only use letters,numbers, minimum length is 3 characters"
   ],
 };
 
